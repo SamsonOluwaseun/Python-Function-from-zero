@@ -6,3 +6,6 @@ for item in mylist:
 
 for _,value in my_dict.items():
     print(f"My favourite thing to dring is: {value}")
+
+#my_dict=my_dict
+#my_list3=
