@@ -1,7 +1,7 @@
 import fire
 from mylib.bot import scrape
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fire.Fire(scrape)
 
-#python fire-cli.py --name Facebook --length 2
+# python fire-cli.py --name Facebook --length 2
