@@ -6,7 +6,7 @@ def test_scrape():
 from click.testing import CliRunner
 from wikibot import cli
 def test_cli():
-    runner = CliRunner
-    result = runner.invoke(cli, ['--name',"Microsoft"])
+    runner = CliRunner()
+    result = runner.invoke(cli, ['--name',"Microsoft", '--length', 1])
     assert result.exit_code == 0
-    assert result.output == 'Microsoft'
+    assert 'Microsoft' in result.output
